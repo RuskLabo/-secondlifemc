@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/index.css" />
+    <link rel="stylesheet" href="src/css/nav.css" />
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <main>
+            <nav>
+                <div class='nav-container'>
+                  <a class='nav-logo'>
+                    <img alt='Logo do MineResi' src='src/img/logo.png' />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href='#'>Inicio</a>
+                    </li>
+                    <li>
+                      <a href='#'>Regras</a>
+                    </li>
+                    <li>
+                      <a href='#'>Discord</a>
+                    </li>
+                  </ul>
+                </div>   
+              </nav>
+            <h1>Bem-vindo(a) ao MineResi!</h1>
+            <div class="server-info">
+                <p>Há nenhum jogador online no servidor neste momento.</p>
+                <p style="margin: 0px;">Versão: requer minecraft 1.16.5</p>
+                <div class="server-address-clipboard"><div class="server-address-clipboard-icon"><img src="src/img/svgviewer-output.svg" /></div><div class="server-address">mineresi.ddns.net</div><button id="button" class="server-address-clipboard-button">copiar</button></div>
+            </div>
+        </main>
+    </header>
+    
+    <script src="dist/bundle.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+</body>
+</html>

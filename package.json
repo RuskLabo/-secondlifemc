@@ -1,0 +1,21 @@
+{
+  "name": "mine-resi",
+  "version": "1.0.0",
+  "description": "Welcome & rules page of the MineResi website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Almeidiano",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "css-modules-typescript-loader": "^4.0.1",
+    "source-map-loader": "^4.0.1",
+    "tippy.js": "^6.3.7",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
